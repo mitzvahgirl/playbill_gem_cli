@@ -1,11 +1,10 @@
 class Show
     @@all = []
 
-    attr_accessor :name, :location, :url, :showtext
+    attr_accessor :name, :location, :showtext
 
     def initialize(name, url)
         @name = name
-        @url = url
         @location = location
         @showtext = showtext
     end
