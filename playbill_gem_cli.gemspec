@@ -5,19 +5,19 @@ require "playbill_gem_cli/version"
 Gem::Specification.new do |spec|
   spec.name          = "playbill_gem_cli"
   spec.version       = PlaybillGemCli::VERSION
-  spec.authors       = ["<github username>"]
-  spec.email         = ["<github email address>"]
+  spec.authors       = ["mitzvahgirl"]
+  spec.email         = ["<mitzvahgirlprod@gmail.com"]
 
   spec.summary       = "This is a gem to scrape Playbill.com"
   spec.description   = "This gem will help you find shows to see."
   spec.homepage      = "https://github.com/mitzvahgirl/playbill_gem_cli."
   spec.license       = "MIT"
 
-  spec.metadata["allowed_push_host"] = "https://github.com/mitzvahgirl/playbill_gem_cli"
+  spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = https://github.com/mitzvahgirl/playbill_gem_cli"
-  spec.metadata["changelog_uri"] = "https://github.com/mitzvahgirl/playbill_gem_cli."
+  spec.metadata["source_code_uri"] = "https://github.com/mitzvahgirl/playbill_gem_cli."
+  spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
