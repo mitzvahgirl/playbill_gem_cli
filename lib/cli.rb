@@ -25,9 +25,9 @@ class CLI
         show = Shop.all[input.to_i - 1]
 
         if show
-          Scraper.scrape_review(show)
+          Scraper.scrape_showtext(show)
           puts "Here is the summary for #{show.name}:"
-          puts "#{show.summary}"
+          puts "#{show.showtext}"
     
         else
           puts "Invalid input. Please try again!"
