@@ -1,7 +1,10 @@
-require 'open-URI'
 require 'nokogiri'
+require 'open-URI'
 
-require_relative "./version"
-require_relative "./cli"
-require_relative "./show"
 require_relative "./scraper"
+require_relative "./show"
+require_relative "./cli"
+require_relative "./version"
+
+
+
