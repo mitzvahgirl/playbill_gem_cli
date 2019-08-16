@@ -19,10 +19,7 @@ And then execute:
 Or install it yourself as:
 
     $ gem install playbill_gem_cli
-
-## Usage
-
-TODO: Write usage instructions here
+    
 
 ## Development
 
