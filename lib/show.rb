@@ -1,4 +1,4 @@
-cclass Show
+class Show
 @@all = []
 
 attr_accessor :name, :location, :showtext, :url
@@ -8,13 +8,13 @@ def initialize(name, url, showtext)
     # @location = location
     @showtext = showtext
     @url = url
-end
+ end
 
 def self.all
     @@all
-end
+ end
 
 def save
     self.class.all << self
-end
+ end
 end
