@@ -20,7 +20,7 @@ def self.scrape_location(show)
       html = open(BASE_URL +url)
       doc = Nokogiri::HTML(html)
       if doc.search(".div.pb-pl-tile-location").text != ""
-          show.location = doc.search("div.pb-pl-tile-location").text
+          show.location = doc.search("div.pb-pl-tile-location").text.strip
       end
     end
   end
@@ -31,9 +31,9 @@ def self.scrape_location(show)
       html = open(BASE_URL + url)
       doc = Nokogiri::HTML(html)
       if doc.search("div.pb-pl-tile-title").text != ""
-        show.showtext = doc.search("div.pb-pl-tile-title").text 
+        show.showtext = doc.search("div.pb-pl-tile-title").text.strip 
       else 
-        show.showtext = doc.search("div.pb-pl-tile-title").text
+        show.showtext = doc.search("div.pb-pl-tile-title").text.strip
       end
     end
   end
