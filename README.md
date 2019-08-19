@@ -1,8 +1,8 @@
 # PlaybillGemCli
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/playbill_gem_cli`. To experiment with that code, run `bin/console` for an interactive prompt.
+Hello Broadway! Welcome to your new Broadway gem! This Ruby gem allows theater fans to view all current Broadway productions, select a show, view the location of the theater and the plot summary for the selected show. Data for this gem was scraped from playbill.com.
 
-TODO: Delete this and the text above, and describe your gem
+In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file lib/playbill_gem_cli. To experiment with that code, run bin/console for an interactive prompt.
 
 ## Installation
 
